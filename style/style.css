@@ -18,23 +18,28 @@ nav {
   @media only screen and (min-width: 210px) and (min-height: 297px) {
     nav {
       top: 5px;
-      right: 5px; } }
+      right: 5px;
+      font-size: 10px; } }
   @media only screen and (min-width: 420px) and (min-height: 594px) {
     nav {
       top: 10px;
-      right: 10px; } }
+      right: 10px;
+      font-size: 20px; } }
   @media only screen and (min-width: 630px) and (min-height: 891px) {
     nav {
       top: 15px;
-      right: 15px; } }
+      right: 15px;
+      font-size: 30px; } }
   @media only screen and (min-width: 840px) and (min-height: 1188px) {
     nav {
       top: 20px;
-      right: 20px; } }
+      right: 20px;
+      font-size: 40px; } }
   @media only screen and (min-width: 1050px) and (min-height: 1485px) {
     nav {
       top: 25px;
-      right: 25px; } }
+      right: 25px;
+      font-size: 50px; } }
   nav a {
     color: #333;
     font-weight: 100;

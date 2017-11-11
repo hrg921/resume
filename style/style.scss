@@ -24,6 +24,8 @@ nav {
     @include respond-to($i) {
       top: $i * 5px;
       right: $i * 5px;
+
+      font-size: $i * 10px;
     }
   }
 
