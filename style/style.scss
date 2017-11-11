@@ -16,13 +16,24 @@ body {
   height: 100vh;
 }
 
+nav {
+  position: fixed;
+
+  @for $i from 1 through $repeat-time {
+    @include respond-to($i) {
+      top: $i * 5px;
+      right: $i * 5px;
+    }
+  }
+}
+
 .resume {
   @include box-shadow(0 0 100px 10px #aaa);
 
   display: flex;
   flex-wrap: wrap;
 
-  @for $i from 1 through 5 {
+  @for $i from 1 through $repeat-time {
     @include respond-to($i) {
       width: $basic-resume-width * $i;
       height: $basic-resume-height * $i;
