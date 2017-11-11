@@ -1,0 +1,11 @@
+// resume size related to A4 size
+$basic-resume-width: 210px;
+$basic-resume-height: 297px;
+
+// height for header and main content
+$header-height: 30%;
+$main-height: 100% - $header-height;
+
+// width for side and main content
+$main-width: 70%;
+$side-width: 100% - $main-width;

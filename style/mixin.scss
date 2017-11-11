@@ -1,0 +1,13 @@
+@import './variable';
+
+// mixin for setting media query
+@mixin respond-to($size) {
+  @media only screen and (min-width: $basic-resume-width * $size) and (min-height: $basic-resume-height * $size) { @content; }
+}
+
+// mixin for box-shadow
+@mixin box-shadow($shadows...) {
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  box-shadow: $shadows;
+}
