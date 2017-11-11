@@ -1,3 +1,48 @@
+@media only screen {
+  .resume {
+    width: 210px;
+    height: 297px; } }
+@media only screen and (min-width: 420px) and (min-height: 594px) {
+  .resume {
+    width: 420px;
+    height: 594px; } }
+@media only screen and (min-width: 630px) and (min-height: 891px) {
+  .resume {
+    width: 630px;
+    height: 891px; } }
+@media only screen and (min-width: 840px) and (min-height: 1188px) {
+  .resume {
+    width: 840px;
+    height: 1188px; } }
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; }
 
+.resume {
+  -webkit-box-shadow: 0 0 100px 10px #aaa;
+  -moz-box-shadow: 0 0 100px 10px #aaa;
+  box-shadow: 0 0 100px 10px #aaa;
+  display: flex;
+  flex-wrap: wrap; }
+
+.resume-top {
+  height: 30%;
+  width: 100%;
+  background-color: #1e1e1e; }
+
+.resume-side, .resume-main {
+  height: 70%; }
+
+.resume-side {
+  width: 30%;
+  background-color: #505050; }
+
+.resume-main {
+  width: 70%;
+  background-color: white; }
 
 /*# sourceMappingURL=style.css.map */

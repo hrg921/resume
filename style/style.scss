@@ -1,0 +1,80 @@
+// basic resume size
+$basic-resume-width: 210px;
+$basic-resume-height: 297px;
+
+$top-height: 30%;
+$main-height: 100% - $top-height;
+
+$main-width: 70%;
+$side-width: 100% - $main-width;
+
+@media only screen {
+  .resume {
+    width: $basic-resume-width;
+    height: $basic-resume-height;
+  }
+}
+
+@media only screen and (min-width: $basic-resume-width * 2) and (min-height: $basic-resume-height * 2) {
+  .resume {
+    width: $basic-resume-width * 2;
+    height: $basic-resume-height * 2;
+  }
+}
+
+@media only screen and (min-width: $basic-resume-width * 3) and (min-height: $basic-resume-height * 3) {
+  .resume {
+    width: $basic-resume-width * 3;
+    height: $basic-resume-height * 3;
+  }
+}
+
+@media only screen and (min-width: $basic-resume-width * 4) and (min-height: $basic-resume-height * 4) {
+  .resume {
+    width: $basic-resume-width * 4;
+    height: $basic-resume-height * 4;
+  }
+}
+
+body {
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.resume {
+  -webkit-box-shadow: 0 0 100px 10px #aaa;
+  -moz-box-shadow: 0 0 100px 10px #aaa;
+  box-shadow: 0 0 100px 10px #aaa;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume-top {
+  height: $top-height;
+  width: 100%;
+
+  background-color: rgb(30, 30, 30);
+}
+
+.resume-side, .resume-main {
+  height: $main-height;
+}
+
+.resume-side {
+  width: $side-width;
+
+  background-color: rgb(80, 80, 80);
+}
+
+.resume-main {
+  width: $main-width;
+
+  background-color: white;
+}
