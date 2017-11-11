@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:100,300,400,500,700,900");
+.english {
+  font-family: 'Roboto', sans-serif; }
+
+.korean {
+  font-family: 'Open Sans', sans-serif; }
+
 body {
   margin: 0;
   display: flex;
@@ -28,6 +35,10 @@ nav {
     nav {
       top: 25px;
       right: 25px; } }
+  nav a {
+    color: #333;
+    font-weight: 100;
+    text-decoration: none; }
 
 .resume {
   -moz-box-shadow: 0 0 100px 10px #aaa;
