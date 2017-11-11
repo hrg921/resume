@@ -1,10 +1,7 @@
 @import './variable';
 @import './mixin';
 @import './fonts';
-
-@media only print {
-
-}
+@import './print';
 
 body {
   margin: 0;

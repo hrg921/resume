@@ -5,6 +5,9 @@
 .korean {
   font-family: 'Open Sans', sans-serif; }
 
+@media only print {
+  nav {
+    display: none; } }
 body {
   margin: 0;
   display: flex;
