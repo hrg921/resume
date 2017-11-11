@@ -40,6 +40,9 @@ nav {
     font-weight: 100;
     text-decoration: none; }
 
+div, h1 {
+  margin: 0; }
+
 .resume {
   -moz-box-shadow: 0 0 100px 10px #aaa;
   -webkit-box-shadow: 0 0 100px 10px #aaa;
@@ -67,11 +70,82 @@ nav {
       width: 1050px;
       height: 1485px; } }
   .resume header {
-    height: 30%;
+    height: 25%;
     width: 100%;
-    background-color: #1e1e1e; }
+    background-color: #1e1e1e;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+    .resume header main {
+      background-color: #1e1e1e;
+      height: fit-content;
+      width: fit-content; }
+      .resume header main h1 {
+        font-weight: 900; }
+        @media only screen and (min-width: 210px) and (min-height: 297px) {
+          .resume header main h1 {
+            font-size: 20px; } }
+        @media only screen and (min-width: 420px) and (min-height: 594px) {
+          .resume header main h1 {
+            font-size: 40px; } }
+        @media only screen and (min-width: 630px) and (min-height: 891px) {
+          .resume header main h1 {
+            font-size: 60px; } }
+        @media only screen and (min-width: 840px) and (min-height: 1188px) {
+          .resume header main h1 {
+            font-size: 80px; } }
+        @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+          .resume header main h1 {
+            font-size: 100px; } }
+        @media only screen and (min-width: 210px) and (min-height: 297px) {
+          .resume header main h1 .logo {
+            height: 20px; } }
+        @media only screen and (min-width: 420px) and (min-height: 594px) {
+          .resume header main h1 .logo {
+            height: 40px; } }
+        @media only screen and (min-width: 630px) and (min-height: 891px) {
+          .resume header main h1 .logo {
+            height: 60px; } }
+        @media only screen and (min-width: 840px) and (min-height: 1188px) {
+          .resume header main h1 .logo {
+            height: 80px; } }
+        @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+          .resume header main h1 .logo {
+            height: 100px; } }
+        .resume header main h1 .logo img {
+          height: inherit; }
+    .resume header footer {
+      position: absolute;
+      font-weight: 300; }
+      @media only screen and (min-width: 210px) and (min-height: 297px) {
+        .resume header footer {
+          right: 5px;
+          bottom: 5px;
+          font-size: 5px; } }
+      @media only screen and (min-width: 420px) and (min-height: 594px) {
+        .resume header footer {
+          right: 10px;
+          bottom: 10px;
+          font-size: 10px; } }
+      @media only screen and (min-width: 630px) and (min-height: 891px) {
+        .resume header footer {
+          right: 15px;
+          bottom: 15px;
+          font-size: 15px; } }
+      @media only screen and (min-width: 840px) and (min-height: 1188px) {
+        .resume header footer {
+          right: 20px;
+          bottom: 20px;
+          font-size: 20px; } }
+      @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+        .resume header footer {
+          right: 25px;
+          bottom: 25px;
+          font-size: 25px; } }
   .resume aside, .resume main {
-    height: 70%; }
+    height: 75%; }
   .resume aside {
     width: 30%;
     background-color: #505050; }

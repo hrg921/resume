@@ -6,9 +6,14 @@ $basic-resume-height: 297px;
 $repeat-time: 5;
 
 // height for header and main content
-$header-height: 30%;
+$header-height: 25%;
 $main-height: 100% - $header-height;
 
 // width for side and main content
 $main-width: 70%;
 $side-width: 100% - $main-width;
+
+// font-size for basic A4 size
+$basic-font-size: 5px;
+$basic-header-font-size: $basic-font-size * 4;
+$basic-header-footer-font-size: $basic-font-size;

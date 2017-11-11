@@ -34,6 +34,10 @@ nav {
   }
 }
 
+div, h1 {
+  margin: 0;
+}
+
 .resume {
   @include box-shadow(0 0 100px 10px #aaa);
 
@@ -52,6 +56,57 @@ nav {
     width: 100%;
 
     background-color: rgb(30, 30, 30);
+    color: #ddd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    main {
+      background-color: rgb(30, 30, 30);
+
+      height: fit-content;
+      width: fit-content;
+
+      h1 {
+        font-weight: 900;
+
+        @for $i from 1 through $repeat-time {
+          @include respond-to($i) {
+            font-size: $basic-header-font-size * $i;
+          }
+        }
+
+        .logo {
+          @for $i from 1 through $repeat-time {
+            @include respond-to($i) {
+              height: $basic-header-font-size * $i;
+            }
+          }
+
+          img {
+            height: inherit;
+          }
+        }
+      }
+    }
+
+    footer {
+      position: absolute;
+
+      font-weight: 300;
+
+      @for $i from 1 through $repeat-time {
+        @include respond-to($i) {
+          right: $basic-header-footer-font-size * $i;
+          bottom: $basic-header-footer-font-size * $i;
+
+          font-size: $basic-header-footer-font-size * $i;
+        }
+      }
+    }
   }
 
   aside, main {
