@@ -51,33 +51,33 @@ nav {
 div, h1 {
   margin: 0; }
 
-.resume {
+div.resume {
   -moz-box-shadow: 0 0 100px 10px #aaa;
   -webkit-box-shadow: 0 0 100px 10px #aaa;
   box-shadow: 0 0 100px 10px #aaa;
   display: flex;
   flex-wrap: wrap; }
   @media only screen and (min-width: 210px) and (min-height: 297px) {
-    .resume {
+    div.resume {
       width: 210px;
       height: 297px; } }
   @media only screen and (min-width: 420px) and (min-height: 594px) {
-    .resume {
+    div.resume {
       width: 420px;
       height: 594px; } }
   @media only screen and (min-width: 630px) and (min-height: 891px) {
-    .resume {
+    div.resume {
       width: 630px;
       height: 891px; } }
   @media only screen and (min-width: 840px) and (min-height: 1188px) {
-    .resume {
+    div.resume {
       width: 840px;
       height: 1188px; } }
   @media only screen and (min-width: 1050px) and (min-height: 1485px) {
-    .resume {
+    div.resume {
       width: 1050px;
       height: 1485px; } }
-  .resume header {
+  div.resume header.resume {
     height: 25%;
     width: 100%;
     background-color: #1e1e1e;
@@ -86,79 +86,157 @@ div, h1 {
     justify-content: center;
     align-items: center;
     position: relative; }
-    .resume header main {
+    div.resume header.resume main {
       background-color: #1e1e1e;
       height: fit-content;
       width: fit-content; }
-      .resume header main h1 {
+      div.resume header.resume main h1 {
         font-weight: 900; }
         @media only screen and (min-width: 210px) and (min-height: 297px) {
-          .resume header main h1 {
+          div.resume header.resume main h1 {
             font-size: 20px; } }
         @media only screen and (min-width: 420px) and (min-height: 594px) {
-          .resume header main h1 {
+          div.resume header.resume main h1 {
             font-size: 40px; } }
         @media only screen and (min-width: 630px) and (min-height: 891px) {
-          .resume header main h1 {
+          div.resume header.resume main h1 {
             font-size: 60px; } }
         @media only screen and (min-width: 840px) and (min-height: 1188px) {
-          .resume header main h1 {
+          div.resume header.resume main h1 {
             font-size: 80px; } }
         @media only screen and (min-width: 1050px) and (min-height: 1485px) {
-          .resume header main h1 {
+          div.resume header.resume main h1 {
             font-size: 100px; } }
         @media only screen and (min-width: 210px) and (min-height: 297px) {
-          .resume header main h1 .logo {
+          div.resume header.resume main h1 .logo {
             height: 20px; } }
         @media only screen and (min-width: 420px) and (min-height: 594px) {
-          .resume header main h1 .logo {
+          div.resume header.resume main h1 .logo {
             height: 40px; } }
         @media only screen and (min-width: 630px) and (min-height: 891px) {
-          .resume header main h1 .logo {
+          div.resume header.resume main h1 .logo {
             height: 60px; } }
         @media only screen and (min-width: 840px) and (min-height: 1188px) {
-          .resume header main h1 .logo {
+          div.resume header.resume main h1 .logo {
             height: 80px; } }
         @media only screen and (min-width: 1050px) and (min-height: 1485px) {
-          .resume header main h1 .logo {
+          div.resume header.resume main h1 .logo {
             height: 100px; } }
-        .resume header main h1 .logo img {
+        div.resume header.resume main h1 .logo img {
           height: inherit; }
-    .resume header footer {
+    div.resume header.resume footer {
       position: absolute;
       font-weight: 300; }
       @media only screen and (min-width: 210px) and (min-height: 297px) {
-        .resume header footer {
+        div.resume header.resume footer {
           right: 5px;
           bottom: 5px;
           font-size: 5px; } }
       @media only screen and (min-width: 420px) and (min-height: 594px) {
-        .resume header footer {
+        div.resume header.resume footer {
           right: 10px;
           bottom: 10px;
           font-size: 10px; } }
       @media only screen and (min-width: 630px) and (min-height: 891px) {
-        .resume header footer {
+        div.resume header.resume footer {
           right: 15px;
           bottom: 15px;
           font-size: 15px; } }
       @media only screen and (min-width: 840px) and (min-height: 1188px) {
-        .resume header footer {
+        div.resume header.resume footer {
           right: 20px;
           bottom: 20px;
           font-size: 20px; } }
       @media only screen and (min-width: 1050px) and (min-height: 1485px) {
-        .resume header footer {
+        div.resume header.resume footer {
           right: 25px;
           bottom: 25px;
           font-size: 25px; } }
-  .resume aside, .resume main {
+  div.resume aside.resume, div.resume main.resume {
     height: 75%; }
-  .resume aside {
+  div.resume aside.resume {
     width: 30%;
-    background-color: #505050; }
-  .resume main {
+    background-color: #505050;
+    text-align: center; }
+    div.resume aside.resume header {
+      background-color: #505050;
+      color: white;
+      font-weight: 100; }
+      @media only screen and (min-width: 210px) and (min-height: 297px) {
+        div.resume aside.resume header {
+          font-size: 10px;
+          margin-top: 5px; } }
+      @media only screen and (min-width: 420px) and (min-height: 594px) {
+        div.resume aside.resume header {
+          font-size: 20px;
+          margin-top: 10px; } }
+      @media only screen and (min-width: 630px) and (min-height: 891px) {
+        div.resume aside.resume header {
+          font-size: 30px;
+          margin-top: 15px; } }
+      @media only screen and (min-width: 840px) and (min-height: 1188px) {
+        div.resume aside.resume header {
+          font-size: 40px;
+          margin-top: 20px; } }
+      @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+        div.resume aside.resume header {
+          font-size: 50px;
+          margin-top: 25px; } }
+  div.resume main.resume {
     width: 70%;
     background-color: white; }
+    div.resume main.resume main {
+      font-weight: 400;
+      line-height: 1.5em;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 210px) and (min-height: 297px) {
+        div.resume main.resume main {
+          font-size: 5px;
+          margin-left: 5px;
+          margin-top: 5px;
+          margin-right: 5px; } }
+      @media only screen and (min-width: 420px) and (min-height: 594px) {
+        div.resume main.resume main {
+          font-size: 10px;
+          margin-left: 10px;
+          margin-top: 10px;
+          margin-right: 10px; } }
+      @media only screen and (min-width: 630px) and (min-height: 891px) {
+        div.resume main.resume main {
+          font-size: 15px;
+          margin-left: 15px;
+          margin-top: 15px;
+          margin-right: 15px; } }
+      @media only screen and (min-width: 840px) and (min-height: 1188px) {
+        div.resume main.resume main {
+          font-size: 20px;
+          margin-left: 20px;
+          margin-top: 20px;
+          margin-right: 20px; } }
+      @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+        div.resume main.resume main {
+          font-size: 25px;
+          margin-left: 25px;
+          margin-top: 25px;
+          margin-right: 25px; } }
+      div.resume main.resume main footer {
+        font-weight: 100; }
+        div.resume main.resume main footer:before {
+          content: "- "; }
+        @media only screen and (min-width: 210px) and (min-height: 297px) {
+          div.resume main.resume main footer {
+            margin-left: 10px; } }
+        @media only screen and (min-width: 420px) and (min-height: 594px) {
+          div.resume main.resume main footer {
+            margin-left: 20px; } }
+        @media only screen and (min-width: 630px) and (min-height: 891px) {
+          div.resume main.resume main footer {
+            margin-left: 30px; } }
+        @media only screen and (min-width: 840px) and (min-height: 1188px) {
+          div.resume main.resume main footer {
+            margin-left: 40px; } }
+        @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+          div.resume main.resume main footer {
+            margin-left: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
