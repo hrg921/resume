@@ -51,6 +51,10 @@ nav {
 div, h1 {
   margin: 0; }
 
+a {
+  color: inherit;
+  text-decoration: none; }
+
 div.resume {
   -moz-box-shadow: 0 0 100px 10px #aaa;
   -webkit-box-shadow: 0 0 100px 10px #aaa;
@@ -129,29 +133,29 @@ div.resume {
       font-weight: 300; }
       @media only screen and (min-width: 210px) and (min-height: 297px) {
         div.resume header.resume footer {
-          right: 5px;
-          bottom: 5px;
-          font-size: 5px; } }
+          right: 4px;
+          bottom: 4px;
+          font-size: 4px; } }
       @media only screen and (min-width: 420px) and (min-height: 594px) {
         div.resume header.resume footer {
-          right: 10px;
-          bottom: 10px;
-          font-size: 10px; } }
+          right: 8px;
+          bottom: 8px;
+          font-size: 8px; } }
       @media only screen and (min-width: 630px) and (min-height: 891px) {
         div.resume header.resume footer {
-          right: 15px;
-          bottom: 15px;
-          font-size: 15px; } }
+          right: 12px;
+          bottom: 12px;
+          font-size: 12px; } }
       @media only screen and (min-width: 840px) and (min-height: 1188px) {
+        div.resume header.resume footer {
+          right: 16px;
+          bottom: 16px;
+          font-size: 16px; } }
+      @media only screen and (min-width: 1050px) and (min-height: 1485px) {
         div.resume header.resume footer {
           right: 20px;
           bottom: 20px;
           font-size: 20px; } }
-      @media only screen and (min-width: 1050px) and (min-height: 1485px) {
-        div.resume header.resume footer {
-          right: 25px;
-          bottom: 25px;
-          font-size: 25px; } }
   div.resume aside.resume, div.resume main.resume {
     height: 75%; }
   div.resume aside.resume {
@@ -164,24 +168,84 @@ div.resume {
       font-weight: 100; }
       @media only screen and (min-width: 210px) and (min-height: 297px) {
         div.resume aside.resume header {
-          font-size: 10px;
-          margin-top: 5px; } }
+          font-size: 8px;
+          margin-top: 6px; } }
       @media only screen and (min-width: 420px) and (min-height: 594px) {
         div.resume aside.resume header {
-          font-size: 20px;
-          margin-top: 10px; } }
+          font-size: 16px;
+          margin-top: 12px; } }
       @media only screen and (min-width: 630px) and (min-height: 891px) {
         div.resume aside.resume header {
-          font-size: 30px;
-          margin-top: 15px; } }
+          font-size: 24px;
+          margin-top: 18px; } }
       @media only screen and (min-width: 840px) and (min-height: 1188px) {
         div.resume aside.resume header {
-          font-size: 40px;
-          margin-top: 20px; } }
+          font-size: 32px;
+          margin-top: 24px; } }
       @media only screen and (min-width: 1050px) and (min-height: 1485px) {
         div.resume aside.resume header {
-          font-size: 50px;
-          margin-top: 25px; } }
+          font-size: 40px;
+          margin-top: 30px; } }
+    @media only screen and (min-width: 210px) and (min-height: 297px) {
+      div.resume aside.resume header.education {
+        height: 24px; } }
+    @media only screen and (min-width: 420px) and (min-height: 594px) {
+      div.resume aside.resume header.education {
+        height: 48px; } }
+    @media only screen and (min-width: 630px) and (min-height: 891px) {
+      div.resume aside.resume header.education {
+        height: 72px; } }
+    @media only screen and (min-width: 840px) and (min-height: 1188px) {
+      div.resume aside.resume header.education {
+        height: 96px; } }
+    @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+      div.resume aside.resume header.education {
+        height: 120px; } }
+    @media only screen and (min-width: 210px) and (min-height: 297px) {
+      div.resume aside.resume header.skill {
+        height: 66px; } }
+    @media only screen and (min-width: 420px) and (min-height: 594px) {
+      div.resume aside.resume header.skill {
+        height: 132px; } }
+    @media only screen and (min-width: 630px) and (min-height: 891px) {
+      div.resume aside.resume header.skill {
+        height: 198px; } }
+    @media only screen and (min-width: 840px) and (min-height: 1188px) {
+      div.resume aside.resume header.skill {
+        height: 264px; } }
+    @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+      div.resume aside.resume header.skill {
+        height: 330px; } }
+    @media only screen and (min-width: 210px) and (min-height: 297px) {
+      div.resume aside.resume header.project {
+        height: 66px; } }
+    @media only screen and (min-width: 420px) and (min-height: 594px) {
+      div.resume aside.resume header.project {
+        height: 132px; } }
+    @media only screen and (min-width: 630px) and (min-height: 891px) {
+      div.resume aside.resume header.project {
+        height: 198px; } }
+    @media only screen and (min-width: 840px) and (min-height: 1188px) {
+      div.resume aside.resume header.project {
+        height: 264px; } }
+    @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+      div.resume aside.resume header.project {
+        height: 330px; } }
+    @media only screen and (min-width: 210px) and (min-height: 297px) {
+      div.resume aside.resume header.contact {
+        height: 36px; } }
+    @media only screen and (min-width: 420px) and (min-height: 594px) {
+      div.resume aside.resume header.contact {
+        height: 72px; } }
+    @media only screen and (min-width: 630px) and (min-height: 891px) {
+      div.resume aside.resume header.contact {
+        height: 108px; } }
+    @media only screen and (min-width: 840px) and (min-height: 1188px) {
+      div.resume aside.resume header.contact {
+        height: 144px; } }
+    @media only screen and (min-width: 1050px) and (min-height: 1485px) {
+      div.resume aside.resume header.contact {
+        height: 180px; } }
   div.resume main.resume {
     width: 70%;
     background-color: white; }
@@ -191,52 +255,52 @@ div.resume {
       margin-bottom: 0; }
       @media only screen and (min-width: 210px) and (min-height: 297px) {
         div.resume main.resume main {
-          font-size: 5px;
-          margin-left: 5px;
-          margin-top: 5px;
-          margin-right: 5px; } }
+          font-size: 4px;
+          margin-left: 4px;
+          margin-top: 6px;
+          margin-right: 4px; } }
       @media only screen and (min-width: 420px) and (min-height: 594px) {
         div.resume main.resume main {
-          font-size: 10px;
-          margin-left: 10px;
-          margin-top: 10px;
-          margin-right: 10px; } }
+          font-size: 8px;
+          margin-left: 8px;
+          margin-top: 12px;
+          margin-right: 8px; } }
       @media only screen and (min-width: 630px) and (min-height: 891px) {
         div.resume main.resume main {
-          font-size: 15px;
-          margin-left: 15px;
-          margin-top: 15px;
-          margin-right: 15px; } }
+          font-size: 12px;
+          margin-left: 12px;
+          margin-top: 18px;
+          margin-right: 12px; } }
       @media only screen and (min-width: 840px) and (min-height: 1188px) {
+        div.resume main.resume main {
+          font-size: 16px;
+          margin-left: 16px;
+          margin-top: 24px;
+          margin-right: 16px; } }
+      @media only screen and (min-width: 1050px) and (min-height: 1485px) {
         div.resume main.resume main {
           font-size: 20px;
           margin-left: 20px;
-          margin-top: 20px;
+          margin-top: 30px;
           margin-right: 20px; } }
-      @media only screen and (min-width: 1050px) and (min-height: 1485px) {
-        div.resume main.resume main {
-          font-size: 25px;
-          margin-left: 25px;
-          margin-top: 25px;
-          margin-right: 25px; } }
       div.resume main.resume main footer {
         font-weight: 100; }
         div.resume main.resume main footer:before {
           content: "- "; }
         @media only screen and (min-width: 210px) and (min-height: 297px) {
           div.resume main.resume main footer {
-            margin-left: 10px; } }
+            margin-left: 8px; } }
         @media only screen and (min-width: 420px) and (min-height: 594px) {
           div.resume main.resume main footer {
-            margin-left: 20px; } }
+            margin-left: 16px; } }
         @media only screen and (min-width: 630px) and (min-height: 891px) {
           div.resume main.resume main footer {
-            margin-left: 30px; } }
+            margin-left: 24px; } }
         @media only screen and (min-width: 840px) and (min-height: 1188px) {
           div.resume main.resume main footer {
-            margin-left: 40px; } }
+            margin-left: 32px; } }
         @media only screen and (min-width: 1050px) and (min-height: 1485px) {
           div.resume main.resume main footer {
-            margin-left: 50px; } }
+            margin-left: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

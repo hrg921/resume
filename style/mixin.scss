@@ -11,3 +11,7 @@
   -webkit-box-shadow: $shadows;
   box-shadow: $shadows;
 }
+
+@mixin set-title-height($line, $font-size) {
+  height: $line * $font-size * 1.5;
+}

@@ -37,6 +37,11 @@ div, h1 {
   margin: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 div.resume {
   @include box-shadow(0 0 100px 10px #aaa);
 
@@ -127,7 +132,39 @@ div.resume {
       @for $i from 1 through $repeat-time {
         @include respond-to($i) {
           font-size: $basic-main-header-font-size * $i;
-          margin-top: $basic-font-size * $i;
+          margin-top: $basic-font-size * 1.5 * $i;
+        }
+      }
+    }
+
+    header.education {
+      @for $i from 1 through $repeat-time {
+        @include respond-to($i) {
+          @include set-title-height($education-line, $basic-font-size * $i);
+        }
+      }
+    }
+
+    header.skill {
+      @for $i from 1 through $repeat-time {
+        @include respond-to($i) {
+          @include set-title-height($skill-line, $basic-font-size * $i);
+        }
+      }
+    }
+
+    header.project {
+      @for $i from 1 through $repeat-time {
+        @include respond-to($i) {
+          @include set-title-height($project-line, $basic-font-size * $i);
+        }
+      }
+    }
+
+    header.contact {
+      @for $i from 1 through $repeat-time {
+        @include respond-to($i) {
+          @include set-title-height($contact-line, $basic-font-size * $i);
         }
       }
     }
@@ -148,7 +185,7 @@ div.resume {
         @include respond-to($i) {
           font-size: $basic-main-font-size * $i;
           margin-left: $basic-font-size * $i;
-          margin-top: $basic-font-size * $i;
+          margin-top: $basic-font-size * 1.5 * $i;
           margin-right: $basic-font-size * $i;
         }
       }

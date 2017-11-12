@@ -14,8 +14,14 @@ $main-width: 70%;
 $side-width: 100% - $main-width;
 
 // font-size for basic A4 size
-$basic-font-size: 5px;
-$basic-header-font-size: $basic-font-size * 4;
+$basic-font-size: 4px;
+$basic-header-font-size: $basic-font-size * 5;
 $basic-header-footer-font-size: $basic-font-size;
 $basic-main-font-size: $basic-font-size;
 $basic-main-header-font-size: $basic-main-font-size * 2;
+
+// lines for header
+$education-line: 4;
+$skill-line: 11;
+$project-line: 11;
+$contact-line: 6;
