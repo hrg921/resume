@@ -5,6 +5,12 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0; }
+  @media print {
+    html, body {
+      font-size: 0.47619vw; } }
+  @media screen {
+    html, body {
+      font-size: 0.3vmin; } }
 
 body {
   display: flex;
@@ -18,14 +24,14 @@ main#container {
   background-color: #eeeeee; }
   @media print {
     main#container {
-      width: 100%;
-      height: 100%;
-      font-size: 1vw; } }
+      padding: 5vw;
+      width: 95vw;
+      height: 136.42857vw; } }
   @media screen {
     main#container {
-      width: 63vmin;
-      height: 89.1vmin;
-      font-size: 0.3vmin;
+      padding: 3.15vmin;
+      width: 59.85vmin;
+      height: 85.95vmin;
       -moz-box-shadow: 0 0 100px 10px #aaa;
       -webkit-box-shadow: 0 0 100px 10px #aaa;
       box-shadow: 0 0 100px 10px #aaa; } }

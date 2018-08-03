@@ -1,0 +1,18 @@
+$basic-width: 210;
+$basic-height: 297;
+$screen-view-ratio: 0.3;
+
+$screen-font-size: 1vmin * $screen-view-ratio;
+$print-font-size: 100vw / 210;
+
+$padding: 10.5;
+$width: $basic-width - $padding;
+$height: $basic-height - $padding;
+
+$print-padding: $print-font-size * $padding;
+$print-width: $print-font-size * $width;
+$print-height: $print-font-size * $height;
+
+$screen-padding: $screen-font-size * $padding;
+$screen-width: $screen-font-size * $width;
+$screen-height: $screen-font-size * $height;

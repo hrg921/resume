@@ -1,12 +1,7 @@
 /**
  * Created by hangeonho on 2018. 8. 2..
  */
-$basic-width: 210;
-$basic-height: 297;
-$view-ratio: 0.3;
-
-$screen-width: 1vmin * $basic-width * $view-ratio;
-$screen-height: 1vmin * $basic-height * $view-ratio;
+@import "variables";
 
 @mixin box-shadow($shadows...) {
   -moz-box-shadow: $shadows;
@@ -18,17 +13,15 @@ main#container {
   background-color: rgb(238, 238, 238);
 
   @media print {
-    width: 100%;
-    height: 100%;
-
-    font-size: 1vw;
+    padding: $print-padding;
+    width: $print-width;
+    height: $print-height;
   }
 
   @media screen {
+    padding: $screen-padding;
     width: $screen-width;
     height: $screen-height;
-
-    font-size: $screen-width / $basic-width;
 
     @include box-shadow(0 0 100px 10px #aaa);
   }

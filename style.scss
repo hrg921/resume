@@ -1,11 +1,21 @@
 /**
  * Created by hangeonho on 2018. 8. 2..
  */
+@import "variables";
+
 html, body {
   width: 100%;
   height: 100%;
 
   margin: 0;
+
+  @media print {
+    font-size: $print-font-size;
+  }
+
+  @media screen {
+    font-size: $screen-font-size;
+  }
 }
 
 body {
