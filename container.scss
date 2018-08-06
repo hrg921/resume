@@ -14,14 +14,14 @@ main#container {
 
   @media print {
     padding: $print-padding-vertical $print-padding-horizontal $print-padding-vertical $print-padding-horizontal;
-    width: $print-width;
-    height: $print-height;
+    width: $print-resume-width;
+    height: $print-resume-height;
   }
 
   @media screen {
     padding: $screen-padding-vertical $screen-padding-horizontal $screen-padding-vertical $screen-padding-horizontal;
-    width: $screen-width;
-    height: $screen-height;
+    width: $screen-resume-width;
+    height: $screen-resume-height;
 
     @include box-shadow(0 0 100px 10px #aaa);
   }

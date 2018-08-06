@@ -1,27 +1,55 @@
 /**
  * Created by hangeonho on 2018. 8. 3..
  */
-
-$basic-width: 210;
-$basic-height: 297;
+// base width, height
+$basic-resume-width: 210;
+$basic-resume-height: 297;
 $screen-view-ratio: 0.3;
 
+// basic font size
 $screen-font-size: 1vmin * $screen-view-ratio;
 $print-font-size: 100vw / 210;
 
+// padding and real width, height
 $padding-horizontal: 10.5;
 $padding-vertical: 13.9;
-$width: $basic-width - $padding-horizontal * 2;
-$height: $basic-height - $padding-vertical * 2;
+$resume-width: $basic-resume-width - $padding-horizontal * 2;
+$resume-height: $basic-resume-height - $padding-vertical * 2;
 
+// print mode sizes
 $print-padding-horizontal: $print-font-size * $padding-horizontal;
 $print-padding-vertical: $print-font-size * $padding-vertical;
-$print-width: $print-font-size * $width;
-$print-height: $print-font-size * $height;
+$print-resume-width: $print-font-size * $resume-width;
+$print-resume-height: $print-font-size * $resume-height;
 
+// screen mode sizes
 $screen-padding-horizontal: $screen-font-size * $padding-horizontal;
 $screen-padding-vertical: $screen-font-size * $padding-vertical;
-$screen-width: $screen-font-size * $width;
-$screen-height: $screen-font-size * $height;
+$screen-resume-width: $screen-font-size * $resume-width;
+$screen-resume-height: $screen-font-size * $resume-height;
 
+
+// header
+$header-absolute-margin-bottom: 5.5;
+$header-relative-margin-bottom-in-resume: $header-absolute-margin-bottom / $basic-resume-height;
+
+$header-profile-image-absolute-size: 37.8;
+$header-profile-image-relative-size-in-resume: $header-profile-image-absolute-size / $basic-resume-height;
+$header-figcaption-absolute-padding-left: 11.32;
+$header-figcaption-relative-padding-left-in-header: $header-figcaption-absolute-padding-left / $resume-width;
+$header-figcaption-absolute-width: $resume-width - $header-profile-image-absolute-size - $header-figcaption-absolute-padding-left;
+$header-figcaption-absolute-width-with-padding: $header-figcaption-absolute-width + $header-figcaption-absolute-padding-left;
+$header-figcaption-relative-width-in-header: $header-figcaption-absolute-width / $resume-width;
+
+$header-h1-font-size: 11.98;
+
+$header-h2-font-size: 6.09;
+$header-h2-absolute-margin-left: 4.6;
+$header-h2-relative-margin-left-in-figcaption: $header-h2-absolute-margin-left / ($header-figcaption-absolute-width-with-padding);
+
+$header-p-font-size: 6.08;
+
+$header-p-quotation-mark-size: 3.07;
+
+// divider between header and sections
 $divider-size: 0.5;
