@@ -13,13 +13,13 @@ main#container {
   background-color: rgb(238, 238, 238);
 
   @media print {
-    padding: $print-padding;
+    padding: $print-padding-vertical $print-padding-horizontal $print-padding-vertical $print-padding-horizontal;
     width: $print-width;
     height: $print-height;
   }
 
   @media screen {
-    padding: $screen-padding;
+    padding: $screen-padding-vertical $screen-padding-horizontal $screen-padding-vertical $screen-padding-horizontal;
     width: $screen-width;
     height: $screen-height;
 

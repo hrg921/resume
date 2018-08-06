@@ -1,3 +1,7 @@
+/**
+ * Created by hangeonho on 2018. 8. 3..
+ */
+
 $basic-width: 210;
 $basic-height: 297;
 $screen-view-ratio: 0.3;
@@ -5,14 +9,19 @@ $screen-view-ratio: 0.3;
 $screen-font-size: 1vmin * $screen-view-ratio;
 $print-font-size: 100vw / 210;
 
-$padding: 10.5;
-$width: $basic-width - $padding;
-$height: $basic-height - $padding;
+$padding-horizontal: 10.5;
+$padding-vertical: 13.9;
+$width: $basic-width - $padding-horizontal * 2;
+$height: $basic-height - $padding-vertical * 2;
 
-$print-padding: $print-font-size * $padding;
+$print-padding-horizontal: $print-font-size * $padding-horizontal;
+$print-padding-vertical: $print-font-size * $padding-vertical;
 $print-width: $print-font-size * $width;
 $print-height: $print-font-size * $height;
 
-$screen-padding: $screen-font-size * $padding;
+$screen-padding-horizontal: $screen-font-size * $padding-horizontal;
+$screen-padding-vertical: $screen-font-size * $padding-vertical;
 $screen-width: $screen-font-size * $width;
 $screen-height: $screen-font-size * $height;
+
+$divider-size: 0.5;

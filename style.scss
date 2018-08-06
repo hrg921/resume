@@ -1,6 +1,7 @@
 /**
  * Created by hangeonho on 2018. 8. 2..
  */
+@import "fonts";
 @import "variables";
 
 html, body {
@@ -23,6 +24,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  hr {
+    color: #66657d;
+    border-style: solid;
+
+    @media print {
+      border-width: $print-font-size * $divider-size;
+    }
+
+    @media screen {
+      border-width: $screen-font-size * $divider-size;
+    }
+  }
 }
 
 @import "container";
+@import "header";
