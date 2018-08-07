@@ -6,4 +6,10 @@
 section {
   background: white;
   height: percentage($section-relative-height-in-document);
+  padding: percentage($section-relative-padding-in-document);
+  margin-bottom: percentage($section-relative-padding-in-document);
+
+  &:first-of-type {
+    margin-top: percentage($section-relative-padding-in-document);
+  }
 }

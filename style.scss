@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  hr {
+  hr#header_section_divider {
     color: #66657d;
     border-style: solid;
 
@@ -42,3 +42,4 @@ body {
 @import "container";
 @import "header";
 @import "section";
+@import "article";

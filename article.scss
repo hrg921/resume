@@ -1,0 +1,63 @@
+/**
+ * Created by hangeonho on 2018. 8. 7..
+ */
+@import "variables";
+
+article {
+  font-family: "Inconsolata", Monaco, monospace, sans-serif;
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  margin-left: percentage($article-relative-margin-left-in-document);
+  vertical-align: top;
+
+  &:last-child {
+    margin-left: percentage($article-relative-margin-left-in-document * 2);
+  }
+
+  h1, time, p, a {
+    margin: 0;
+    color: black;
+    text-decoration: none;
+
+    @media print {
+      font-size: $print-font-size * $article-font-size;
+      line-height: $print-font-size * $article-line-height;
+    }
+
+    @media screen {
+      font-size: $screen-font-size * $article-font-size;
+      line-height: $screen-font-size * $article-line-height;
+    }
+
+    line-height: 1.2em;
+  }
+
+  h1 {
+    text-align: right;
+    font-weight: 700;
+  }
+
+  hr.article_header_main_divider {
+    border-style: solid;
+    margin: 0;
+
+    @media print {
+      border-bottom: $print-font-size * $article-divider-size;
+      margin-top: $print-font-size * $article-divider-size;
+      margin-bottom: $print-font-size * $article-divider-size;
+    }
+
+    @media screen {
+      border-bottom: $screen-font-size * $article-divider-size;
+      margin-top: $screen-font-size * $article-divider-size;
+      margin-bottom: $screen-font-size * $article-divider-size;
+    }
+  }
+
+  main {
+    h1 {
+      text-align: left;
+    }
+  }
+}

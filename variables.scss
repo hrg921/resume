@@ -55,5 +55,14 @@ $header-p-quotation-mark-size: 3.07;
 $divider-size: 0.5;
 
 // section
-$section-height: 46.3;
-$section-relative-height-in-document: $section-height / $resume-height;
+$section-height: 48;
+$section-absolute-padding: 4;
+$section-relative-height-in-document: ($section-height - $section-absolute-padding * 2) / $resume-height;
+$section-relative-padding-in-document: ($section-absolute-padding) / $resume-height;
+
+// article
+$article-font-size: 4.5;
+$article-line-height: $article-font-size * 1.5;
+$article-divider-size: 0.5;
+$article-relative-margin-left-in-document: $section-relative-padding-in-document * 1.2;
+

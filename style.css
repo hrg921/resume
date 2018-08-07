@@ -6,6 +6,7 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:900");
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 @font-face {
   font-family: 'hevitas';
   src: url("fonts/heavitas.ttf"); }
@@ -27,14 +28,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
-  body hr {
+  body hr#header_section_divider {
     color: #66657d;
     border-style: solid; }
     @media print {
-      body hr {
+      body hr#header_section_divider {
         border-width: 0.2381vw; } }
     @media screen {
-      body hr {
+      body hr#header_section_divider {
         border-width: 0.15vmin; } }
 
 /**
@@ -43,15 +44,15 @@ body {
 /**
  * Created by hangeonho on 2018. 8. 3..
  */
-main#container {
+main#resume_container {
   background-color: #eeeeee; }
   @media print {
-    main#container {
+    main#resume_container {
       padding: 6.61905vw 5vw 6.61905vw 5vw;
       width: 90vw;
       height: 128.19048vw; } }
   @media screen {
-    main#container {
+    main#resume_container {
       padding: 4.17vmin 3.15vmin 4.17vmin 3.15vmin;
       width: 56.7vmin;
       height: 80.76vmin;
@@ -65,80 +66,81 @@ main#container {
 /**
  * Created by hangeonho on 2018. 8. 3..
  */
-header {
+header#resume_header {
   height: 12.72727%;
   margin-bottom: 1.85185%; }
-  header figure {
+  header#resume_header figure {
     margin: 0;
     height: 100%; }
-    header figure img#profile-image {
+    header#resume_header figure img#profile-image {
       display: inline-block;
       vertical-align: top;
       width: auto;
       height: 100%; }
-    header figure figcaption {
+    header#resume_header figure figcaption {
       display: inline-block;
       width: 75.01058%;
       height: 100%;
       padding-left: 5.98942%; }
-      header figure figcaption h1, header figure figcaption h2, header figure figcaption p {
+      header#resume_header figure figcaption h1, header#resume_header figure figcaption h2, header#resume_header figure figcaption p {
         display: inline-block;
         margin: 0; }
-      header figure figcaption header {
+      header#resume_header figure figcaption header {
         display: inline-block;
         width: 100%;
         height: 33%;
         white-space: nowrap; }
-        header figure figcaption header h1 {
+        header#resume_header figure figcaption header h1 {
           color: #333333;
           font-family: 'hevitas', sans-serif; }
           @media print {
-            header figure figcaption header h1 {
+            header#resume_header figure figcaption header h1 {
               font-size: 5.70476vw; } }
           @media screen {
-            header figure figcaption header h1 {
+            header#resume_header figure figcaption header h1 {
               font-size: 3.594vmin; } }
-        header figure figcaption header h2 {
+        header#resume_header figure figcaption header h2 {
           color: #333333;
           font-family: 'Raleway', sans-serif;
           font-weight: 900;
           margin-left: 3.04233%; }
           @media print {
-            header figure figcaption header h2 {
+            header#resume_header figure figcaption header h2 {
               font-size: 2.9vw; } }
           @media screen {
-            header figure figcaption header h2 {
+            header#resume_header figure figcaption header h2 {
               font-size: 1.827vmin; } }
-      header figure figcaption p {
+      header#resume_header figure figcaption p {
         width: 100%;
         height: 66%;
+        margin-top: 1%;
         color: #66657d;
         font-style: italic;
         font-family: 'Roboto', sans-serif;
         font-weight: 700; }
         @media print {
-          header figure figcaption p {
+          header#resume_header figure figcaption p {
             font-size: 2.89524vw; } }
         @media screen {
-          header figure figcaption p {
+          header#resume_header figure figcaption p {
             font-size: 1.824vmin; } }
-        header figure figcaption p span {
+        header#resume_header figure figcaption p span {
           display: block; }
           @media print {
-            header figure figcaption p span img {
+            header#resume_header figure figcaption p span img {
               width: 1.4619vw;
               height: 1.4619vw; } }
           @media screen {
-            header figure figcaption p span img {
+            header#resume_header figure figcaption p span img {
               width: 0.921vmin;
               height: 0.921vmin; } }
-          header figure figcaption p span:first-child {
+          header#resume_header figure figcaption p span:first-child {
             text-align: left; }
-            header figure figcaption p span:first-child img {
+            header#resume_header figure figcaption p span:first-child img {
               vertical-align: top; }
-          header figure figcaption p span:last-child {
+          header#resume_header figure figcaption p span:last-child {
             text-align: right; }
-            header figure figcaption p span:last-child img {
+            header#resume_header figure figcaption p span:last-child img {
               vertical-align: bottom; }
 
 /**
@@ -149,6 +151,57 @@ header {
  */
 section {
   background: white;
-  height: 17.19911%; }
+  height: 14.85884%;
+  padding: 1.48588%;
+  margin-bottom: 1.48588%; }
+  section:first-of-type {
+    margin-top: 1.48588%; }
+
+/**
+ * Created by hangeonho on 2018. 8. 7..
+ */
+/**
+ * Created by hangeonho on 2018. 8. 3..
+ */
+article {
+  font-family: "Inconsolata", Monaco, monospace, sans-serif;
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  margin-left: 1.78306%;
+  vertical-align: top; }
+  article:last-child {
+    margin-left: 3.56612%; }
+  article h1, article time, article p, article a {
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    line-height: 1.2em; }
+    @media print {
+      article h1, article time, article p, article a {
+        font-size: 2.14286vw;
+        line-height: 3.21429vw; } }
+    @media screen {
+      article h1, article time, article p, article a {
+        font-size: 1.35vmin;
+        line-height: 2.025vmin; } }
+  article h1 {
+    text-align: right;
+    font-weight: 700; }
+  article hr.article_header_main_divider {
+    border-style: solid;
+    margin: 0; }
+    @media print {
+      article hr.article_header_main_divider {
+        border-bottom: 0.2381vw;
+        margin-top: 0.2381vw;
+        margin-bottom: 0.2381vw; } }
+    @media screen {
+      article hr.article_header_main_divider {
+        border-bottom: 0.15vmin;
+        margin-top: 0.15vmin;
+        margin-bottom: 0.15vmin; } }
+  article main h1 {
+    text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

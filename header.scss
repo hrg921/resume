@@ -3,7 +3,7 @@
  */
 @import "variables";
 
-header {
+header#resume_header {
   height: percentage($header-profile-image-relative-size-in-resume);
   margin-bottom: percentage($header-relative-margin-bottom-in-resume);
 
@@ -69,6 +69,7 @@ header {
       p {
         width: 100%;
         height: 66%;
+        margin-top: 1%;
         color: #66657d;
         font-style: italic;
         font-family: 'Roboto', sans-serif;
