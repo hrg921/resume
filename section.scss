@@ -1,0 +1,9 @@
+/**
+ * Created by hangeonho on 2018. 8. 6..
+ */
+@import "variables";
+
+section {
+  background: white;
+  height: percentage($section-relative-height-in-document);
+}

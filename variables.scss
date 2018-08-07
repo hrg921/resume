@@ -53,3 +53,7 @@ $header-p-quotation-mark-size: 3.07;
 
 // divider between header and sections
 $divider-size: 0.5;
+
+// section
+$section-height: 46.3;
+$section-relative-height-in-document: $section-height / $resume-height;

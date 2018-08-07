@@ -1,6 +1,9 @@
 /**
  * Created by hangeonho on 2018. 8. 2..
  */
+/**
+ * Created by hangeonho on 2018. 8. 3..
+ */
 @import url("https://fonts.googleapis.com/css?family=Raleway:900");
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
 @font-face {
@@ -137,5 +140,15 @@ header {
             text-align: right; }
             header figure figcaption p span:last-child img {
               vertical-align: bottom; }
+
+/**
+ * Created by hangeonho on 2018. 8. 6..
+ */
+/**
+ * Created by hangeonho on 2018. 8. 3..
+ */
+section {
+  background: white;
+  height: 17.19911%; }
 
 /*# sourceMappingURL=style.css.map */
