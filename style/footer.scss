@@ -46,21 +46,21 @@ footer#resume_footer {
 
     a#resume_footer_github_link {
       &:before {
-        content: url("./img/footer/github.svg");
+        content: url("../img/footer/github.svg");
       }
     }
 
     a#resume_footer_mail_link {
       text-align: center;
       &:before {
-        content: url("img/footer/mail.svg");
+        content: url("../img/footer/mail.svg");
       }
     }
 
     a#resume_footer_portfolio_link {
       text-align: right;
       &:before {
-        content: url("img/footer/portfolio.svg");
+        content: url("../img/footer/portfolio.svg");
       }
     }
   }

@@ -4,7 +4,7 @@
 import fs from "fs";
 import * as showdown from "showdown";
 
-import "./style.scss";
+import "./style/style.scss";
 
 // parsers
 const markdownToHTMLStringParser = new showdown.Converter();
