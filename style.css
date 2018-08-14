@@ -40,6 +40,23 @@ body {
         border-width: 0.15vmin; } }
 
 /**
+ * Created by hangeonho on 2018. 8. 14..
+ */
+nav {
+  position: fixed;
+  top: 2vmin;
+  left: 2vmin; }
+  @media print {
+    nav {
+      display: none; } }
+  nav a {
+    display: block;
+    color: #222222;
+    margin-bottom: 2vmin;
+    font-size: 2vmin;
+    font-family: 'Roboto', sans-serif; }
+
+/**
  * Created by hangeonho on 2018. 8. 2..
  */
 /**

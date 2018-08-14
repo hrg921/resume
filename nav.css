@@ -1,0 +1,13 @@
+/**
+ * Created by hangeonho on 2018. 8. 14..
+ */
+nav {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 200px; }
+  @media print {
+    nav {
+      display: none; } }
+
+/*# sourceMappingURL=nav.css.map */
