@@ -9,20 +9,23 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400i");
 @font-face {
-  font-family: 'hevitas';
+  font-family: "hevitas";
   src: url("fonts/heavitas.ttf"); }
 /**
  * Created by hangeonho on 2018. 8. 3..
  */
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0; }
   @media print {
-    html, body {
+    html,
+    body {
       font-size: 0.47619vw; } }
   @media screen {
-    html, body {
+    html,
+    body {
       font-size: 0.3vmin; } }
 
 body {
@@ -54,7 +57,7 @@ nav {
     color: #222222;
     margin-bottom: 2vmin;
     font-size: 2vmin;
-    font-family: 'Roboto', sans-serif; }
+    font-family: "Roboto", sans-serif; }
 
 /**
  * Created by hangeonho on 2018. 8. 2..
@@ -100,7 +103,9 @@ header#resume_header {
       width: 75.01058%;
       height: 100%;
       padding-left: 5.98942%; }
-      header#resume_header figure figcaption h1, header#resume_header figure figcaption h2, header#resume_header figure figcaption p {
+      header#resume_header figure figcaption h1,
+      header#resume_header figure figcaption h2,
+      header#resume_header figure figcaption p {
         display: inline-block;
         margin: 0; }
       header#resume_header figure figcaption header {
@@ -110,7 +115,7 @@ header#resume_header {
         white-space: nowrap; }
         header#resume_header figure figcaption header h1 {
           color: #333333;
-          font-family: 'hevitas', sans-serif; }
+          font-family: "hevitas", sans-serif; }
           @media print {
             header#resume_header figure figcaption header h1 {
               font-size: 5.70476vw; } }
@@ -119,7 +124,7 @@ header#resume_header {
               font-size: 3.594vmin; } }
         header#resume_header figure figcaption header h2 {
           color: #333333;
-          font-family: 'Raleway', sans-serif;
+          font-family: "Raleway", sans-serif;
           font-weight: 900;
           margin-left: 3.04233%; }
           @media print {
@@ -134,7 +139,7 @@ header#resume_header {
         margin-top: 1%;
         color: #66657d;
         font-style: italic;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 700; }
         @media print {
           header#resume_header figure figcaption p {
@@ -190,17 +195,26 @@ article {
   vertical-align: top; }
   article:last-child {
     margin-left: 3.56612%; }
-  article h1, article time, article p, article a {
+  article h1,
+  article time,
+  article p,
+  article a {
     margin: 0;
     color: black;
     text-decoration: none;
     line-height: 1.2em; }
     @media print {
-      article h1, article time, article p, article a {
+      article h1,
+      article time,
+      article p,
+      article a {
         font-size: 2.14286vw;
         line-height: 3.21429vw; } }
     @media screen {
-      article h1, article time, article p, article a {
+      article h1,
+      article time,
+      article p,
+      article a {
         font-size: 1.35vmin;
         line-height: 2.025vmin; } }
   article h1 {
@@ -270,7 +284,7 @@ footer#resume_footer section#resume_footer_contact_section a#resume_footer_portf
   footer#resume_footer section#resume_footer_contact_section a#resume_footer_portfolio_link:before {
     content: url("img/footer/portfolio.svg"); }
 footer#resume_footer p#resume_footer_paragraph {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   margin-top: 1.25em;
   margin-bottom: 1em; }

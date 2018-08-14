@@ -13,13 +13,15 @@ main#resume_container {
   background-color: rgb(238, 238, 238);
 
   @media print {
-    padding: $print-padding-vertical $print-padding-horizontal $print-padding-vertical $print-padding-horizontal;
+    padding: $print-padding-vertical $print-padding-horizontal
+      $print-padding-vertical $print-padding-horizontal;
     width: $print-resume-width;
     height: $print-resume-height;
   }
 
   @media screen {
-    padding: $screen-padding-vertical $screen-padding-horizontal $screen-padding-vertical $screen-padding-horizontal;
+    padding: $screen-padding-vertical $screen-padding-horizontal
+      $screen-padding-vertical $screen-padding-horizontal;
     width: $screen-resume-width;
     height: $screen-resume-height;
 

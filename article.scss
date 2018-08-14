@@ -15,7 +15,10 @@ article {
     margin-left: percentage($article-relative-margin-left-in-document * 2);
   }
 
-  h1, time, p, a {
+  h1,
+  time,
+  p,
+  a {
     margin: 0;
     color: black;
     text-decoration: none;

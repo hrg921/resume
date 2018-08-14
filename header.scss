@@ -24,9 +24,13 @@ header#resume_header {
 
       width: percentage($header-figcaption-relative-width-in-header + 0.01);
       height: 100%;
-      padding-left: percentage($header-figcaption-relative-padding-left-in-header);
+      padding-left: percentage(
+        $header-figcaption-relative-padding-left-in-header
+      );
 
-      h1, h2, p {
+      h1,
+      h2,
+      p {
         display: inline-block;
         margin: 0;
       }
@@ -39,7 +43,7 @@ header#resume_header {
 
         h1 {
           color: #333333;
-          font-family: 'hevitas', sans-serif;
+          font-family: "hevitas", sans-serif;
 
           @media print {
             font-size: $print-font-size * $header-h1-font-size;
@@ -52,9 +56,11 @@ header#resume_header {
 
         h2 {
           color: #333333;
-          font-family: 'Raleway', sans-serif;
+          font-family: "Raleway", sans-serif;
           font-weight: 900;
-          margin-left: percentage($header-h2-relative-margin-left-in-figcaption);
+          margin-left: percentage(
+            $header-h2-relative-margin-left-in-figcaption
+          );
 
           @media print {
             font-size: $print-font-size * $header-h2-font-size;
@@ -72,7 +78,7 @@ header#resume_header {
         margin-top: 1%;
         color: #66657d;
         font-style: italic;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 700;
 
         @media print {
