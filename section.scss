@@ -3,7 +3,7 @@
  */
 @import "variables";
 
-section {
+section.resume_contents_section {
   background: white;
   height: percentage($section-relative-height-in-document);
   padding: percentage($section-relative-padding-in-document);

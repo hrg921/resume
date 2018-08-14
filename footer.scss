@@ -1,0 +1,82 @@
+/**
+ * Created by hangeonho on 2018. 8. 14..
+ */
+@import "variables";
+
+footer#resume_footer {
+  section#resume_footer_contact_section {
+    @media print {
+      margin-top: $print-font-size * $footer-margin-top;
+      height: $print-font-size * $footer-icon-size;
+      font-size: $print-font-size * $footer-link-font-size;
+    }
+
+    @media screen {
+      margin-top: $screen-font-size * $footer-margin-top;
+      height: $screen-font-size * $footer-icon-size;
+      font-size: $screen-font-size * $footer-link-font-size;
+    }
+
+    a {
+      color: #333333;
+      display: inline-block;
+      width: 32.9%;
+      height: 100%;
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+      vertical-align: middle;
+
+      &:before {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: 5%;
+
+        @media print {
+          width: $print-font-size * $footer-icon-size;
+        }
+
+        @media screen {
+          width: $screen-font-size * $footer-icon-size;
+        }
+      }
+    }
+
+    a#resume_footer_github_link {
+      &:before {
+        content:url('./img/footer/github.svg');
+      }
+    }
+
+    a#resume_footer_mail_link {
+      text-align: center;
+      &:before {
+        content:url('img/footer/mail.svg');
+      }
+    }
+
+    a#resume_footer_portfolio_link {
+      text-align: right;
+      &:before {
+        content:url('img/footer/portfolio.svg');
+      }
+    }
+  }
+
+  p#resume_footer_paragraph {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom: 1em;
+
+    @media print {
+      font-size: $print-font-size * $footer-paragraph-font-size;
+    }
+
+    @media screen {
+      font-size: $screen-font-size * $footer-paragraph-font-size;
+    }
+  }
+}
