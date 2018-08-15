@@ -8,6 +8,7 @@
     "showdown": "^1.8.6"
   },
   "scripts": {
-    "start": "node ./node_modules/parcel/bin/cli index.html"
+    "start": "node ./node_modules/parcel/bin/cli index.html",
+    "build": "node ./node_modules/parcel/bin/cli build index.html --public-url ./"
   }
 }
