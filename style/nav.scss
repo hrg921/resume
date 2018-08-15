@@ -1,0 +1,19 @@
+/**
+ * Created by hangeonho on 2018. 8. 14..
+ */
+nav {
+  @media print {
+    display: none;
+  }
+  position: fixed;
+  top: 2vmin;
+  left: 2vmin;
+
+  a {
+    display: block;
+    color: #222222;
+    margin-bottom: 2vmin;
+    font-size: 2vmin;
+    font-family: "Roboto", sans-serif;
+  }
+}
