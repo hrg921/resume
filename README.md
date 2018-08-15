@@ -1,5 +1,7 @@
 # resume
 
+![travis build status](https://travis-ci.org/hrg921/resume.svg?branch=master)
+
 This repository is for geonho's resume.
 
 [click here, see my resume!](https://hrg921.github.io/resume/)
