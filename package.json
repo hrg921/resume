@@ -4,7 +4,7 @@
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "node-sass": "^4.9.3",
-    "parcel": "^1.9.7",
+    "parcel": "^2.8.2",
     "showdown": "^1.8.6"
   },
   "scripts": {
